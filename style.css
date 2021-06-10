@@ -1,0 +1,11 @@
+/** @format */
+
+.kiwi-maru {
+  font-family: "Kiwi Maru", serif;
+}
+.hachi-maru {
+  font-family: "Hachi Maru Pop", cursive;
+}
+body {
+  min-height: 100vh;
+}
