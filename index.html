@@ -1,24 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gitのテスト</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- GoogleFont kiwi maru -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kiwi+Maru&display=swap" rel="stylesheet">
+
+    <!-- まてりあるあいこん -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
-    <div>
-        <h1 style="text-align: center;">下記は参加者名簿</h1>
-        <p>ひとりめ</p>
+    <header class="bg-green-400">
+        <h1 class="text-3xl text-center py-4 hachi-maru">U-lab Git勉強会 2021</h1>
+    </header>
+    <div class="flex flex-wrap">
+        <div class="w-full bg-blue-200 p-8">
+            <p>おしながき</p>
+        </div>
 
-        <p>ひとりめ。</p>
+        <div class="w-1/2 bg-yellow-200 p-8">
 
-        <p>ふたりめ。</p>
-
-        <p>さんにんめ。</p>
+        </div>
+        <div class="w-1/2 bg-pink-200 p-8">
+            <p>おしながき</p>
+        </div>
     </div>
+    <div>
+        <div class="contributer my-12 kiwi-maru">
+            <h2 class="text-2xl text-center font-bold">こんとりびゅーたー</h2>
+            <table class="table-auto mx-auto">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2"><span class="material-icons">face</span>name</th>
+                        <th class="px-4 py-2"><span class="material-icons">chat_bubble_outline</span>comment</th>
+                        <th class="px-4 py-2"><span class="material-icons">build</span>in charge</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border px-4 py-2">うすゆき</td>
+                        <td class="border px-4 py-2">勉強会の参加ありがとう。</td>
+                        <td class="border px-4 py-2">勉強会の主催、フレーム作成</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                    <tr>
+                        <td class="border px-4 py-2">Name</td>
+                        <td class="border px-4 py-2">comment</td>
+                        <td class="border px-4 py-2">in charge</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <footer class="bg-gray-700">
+        <p class="text-center text-sm text-white py-12">copyright U-lab2021</p>
+    </footer>
 </body>
 
 </html>
